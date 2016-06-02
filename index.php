@@ -31,85 +31,150 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
 <!-- top-header -->
-<div class="top-header">
-	<div class="container">
-		<ul class="tp-hd-lft" >
-			<li class="hm"><a href="index.html"><i class="fa fa-home"></i></a></li>
-			<li class="prnt" style="color:white"><a href="#"></a>Home</li>
-				
-		</ul>
-		<ul class="tp-hd-rgt"> 
-			<li class="tol">Call Service : 666-66666</li>				
-			<li class="sig"><a href="#"  >Loket Admin</a></li> 
-			<li class="sigi"><a href="#"  >/ Supir</a></li>
-        </ul>
-		<div class="clearfix"></div>
-	</div>
-</div>
 <!--- /top-header ---->
 <!--- header ---->
-<div class="header">
-	<div class="container">
-		<div class="logo" >
-			<a href="index.php">E -<span> Service</span></a>	
-		</div>
-		<div class="bus">
-            <a href="index.html" class="buses active" >Mobil L300</a>
-        </div>
-		<div class="lock"> 
-			<li><i class="fa fa-lock"></i></li>
-            <li><div class="securetxt">AMAN &amp; TERPERCAYA<br> PEMBAYARAN ONLINE</div></li>
-			<div class="clearfix"></div>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-</div>
-<!--- /header ---->
+	<!--- /header ---->
 <!--- footer-btm ---->
-<div class="footer-btm">
-	<div class="container">
-	<div class="navigation">
-			<nav class="navbar navbar-default">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-				</div>
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-					<nav class="cl-effect-1">
-						<ul class="nav navbar-nav">
-							<li><a href="about.html">About</a></li>
-								<li><a href="faq.html">Faq</a></li>
-								<li><a href="apps.html">Apps</a></li>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="travels.html">Travels</a></li>
-								<li><a href="privacy.html">Privacy Policy</a></li>
-								<li><a href="agent.html">Agent Registration</a></li>
-								<li><a href="terms.html">Terms of Use</a></li>
-								<li><a href="contact.html">Contact Us</a></li>
-								<li>Need Help?<a href="#" data-toggle="modal" data-target="#myModal3"> / Write Us </a>  </li>
-								<div class="clearfix"></div>
-						</ul>
-					</nav>
-				</div><!-- /.navbar-collapse -->	
-			</nav>
-		</div>
-		
-		<div class="clearfix"></div>
-	</div>
-</div>
 <!--- /footer-btm ---->
 <!--- banner ---->
-<div class="banner">
-	<div class="container">
-		<h1 class="" > <a href="index.php">E -<span style="color:#34ad00"> Service</span></a> - Merupakan layanan penjualan tiket online mobil L300</h1>
+<!---728x90--->
+<div style="text-align: center;"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-9153409599391170"
+     data-ad-slot="6850850687"></ins>
+<div class="container">
+	<div class="col-md-5 bann-info1 " >
+		<i class="fa fa-car fa-5x" style="color:#1f8dd6"></i>
+		<h3>PESAN TIKET ANDA SEKARANG JUGA !!</h3>
+	</div>
+	<div class="col-md-7 bann-info ">
+		<h2>Temukan Mobil Tujuan Anda Disini</h2>
+		<div class="ban-top">
+			<div class="bnr-left">
+				<label class="inputLabel">From</label>
+				<input class="city" type="text" value="Enter a city" onfocus="this.value = '';"  required=>
+			</div>
+			<div class="bnr-left">
+				<label class="inputLabel">To</label>
+				<input class="city" type="text" value="Enter a city" onfocus="this.value = '';"  required=>
+			</div>
+				<div class="clearfix"></div>
+		</div>
+		<div class="ban-bottom">
+			<div class="bnr-right">
+				<label class="inputLabel">Date of Journey</label>
+				<input class="date" id="datepicker" type="text" value="dd-mm-yyyy" onfocus="this.value = '';"  required=>
+			</div>
+			<div class="bnr-right">
+				<label class="inputLabel">CV <span class="opt">&nbsp;(Optional)</span></label>
+				<input class="date" id="datepicker1" type="text" value="--CV.Buraq--"  required=>
+			</div>
+				<div class="clearfix"></div>
+				<!---start-date-piker---->
+				<link rel="stylesheet" href="css/jquery-ui.css" />
+				<script src="js/jquery-ui.js"></script>
+			<!---/End-date-piker---->
+		</div>
+		<div class="sear">
+			<form action="bus.html">
+				<button class="seabtn">Search Car</button>
+			</form>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+</div>
+<!---728x90--->
+<div style="text-align: center;"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-9153409599391170"
+     data-ad-slot="6850850687"></ins>
+</div>
+<!--- /banner ---->
+<!--- rupes ---->
+<div class="container">
+	<div class="rupes">
+		<div class="col-md-4 rupes-left">
+			<div class="rup-left">
+				<a href="offers.html"><i class="fa fa-usd"></i></a>
+			</div>
+			<div class="rup-rgt">
+				<h3>UP TO IDR 10.000 OFF</h3>
+				<h4><a href="offers.html">TRAVEL SMART</a></h4>
+				<p>CODE:YBMAR12<br>Book Using Pay Money</p>
+			</div>
+				<div class="clearfix"></div>
+		</div>
+		<div class="col-md-4 rupes-left ">
+			<div class="rup-left">
+				<a href="offers.html"><i class="fa fa-bus"></i></a>
+			</div>
+			<div class="rup-rgt">
+				<h3>UP TO 70% OFF</h3>
+				<h4><a href="offers.html">ON HOTELS ACROSS WORLD</a></h4>
+				<p>Offer CODE:YBMAR12</p>
+			</div>
+				<div class="clearfix"></div>
+		</div>
+		<div class="col-md-4 rupes-left ">
+			<div class="rup-left">
+				<a href="offers.html"><i class="fa fa-mobile"></i></a>
+			</div>
+			<div class="rup-rgt">
+				<h3>FLAT IDR 10.000 OFF</h3>
+				<h4><a href="offers.html">BUS APP OFFER</a></h4>
+				<p>book via the yellow Bus App<br>CODE:YBMAR12</p>
+			</div>
+				<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
 	</div>
 </div>
 <!---728x90--->
+<div style="text-align: center;"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-9153409599391170"
+     data-ad-slot="6850850687"></ins>
+</div>
+<!--- /rupes ---->
+<!---holiday---->
+<div class="container">
+	<div class="holiday">
+		<div class="col-md-3 holiday-left animated wow fadeInUp animated" data-wow-duration="1200ms" data-wow-delay="500ms" style="visibility: visible; animation-duration: 1200ms; animation-delay: 500ms; animation-name: fadeInUp;">
+			<img src="images/4.jpg" class="img-responsive" alt="">
+		</div>
+		<div class="col-md-6 holiday-mid animated wow fadeInUp animated" >
+		<h3>Packet Travel</h3>
+		<p>Nikmati Perjalanan Menggunakan CV terbaik kami. Untuk informasi lebih lanjut hubungi kami....</p>
+		</div>
+		<div class="col-md-3 holiday-left animated ">
+			<img src="images/5.jpg" class="img-responsive" alt="">
+		</div>
+			<div class="clearfix"></div>
+	</div>
+</div>
+<!---/holiday---->
+<!---track---->
+<div class="container">
+	<div class="map">
+                <iframe src="https://www.google.com/maps/embed/v1/place?q=Terminal+Bus+Batoh,+Batoh,+Banda+Aceh+City,+Aceh,+Indonesia&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div> 
+	<div class="track">	
+			<h3>Lokasi Kami</h3>
+			<center>
+			<p>JL. Dr.Ir T.Moh.Hassan</p>
+			</center>
+			<a href="track.html" class="learn">Visit Me</a>
+		</div>
+			<div class="clearfix"></div>
+	</div>
+</div>
+<!--- /track ---->
+
+
+<!--- /routes ---->
+<!--- footer-top ---->
 </body>
 </html>
