@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulir Register Data Penumpang</title>
+<link rel="stylesheet" href="css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Engagement' rel='stylesheet' type='text/css'>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.uniform.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(function(){
+        $("input:checkbox, input:radio, input:file, select").uniform();
+      });
+    </script>
+</head>
+<body>
+<article>
+<h1>Register Data Penumpang</h1>
+<form>
+	<ul>
+        <li>
+        	<label for="name">Nama:</label>
+            <input type="text" size="40" id="name" />
+        </li>
+
+        <li>
+            <label for="noktp">No KTP:</label>
+            <input type="text" size="40" id="email" />
+        </li>
+
+        
+        <li>
+        	<label for="email">Email:</label>
+            <input type="email" size="40" id="email" />
+        </li>
+
+        
+        <li>
+            <label for="nohp">No HP:</label>
+            <input type="text" size="40" id="email" />
+        </li>
+
+      <li>
+            <label for="tujuan">Tujuan:</label>
+            <select id="car">
+                <option>Sigli</option>
+                <option>Bireuen</option>
+                <option>Lhokseumawe</option>
+                <option>Lhoksukon</option>
+                <option>Idi</option>
+                <option>Langsa</option>
+                <option>Kuala Simpang</option>
+                <option>Medan</option>
+            </select>
+        </li>
+
+
+        <li>
+            <label for="car">No bangku:</label>
+            <select id="car">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+            </select>
+        </li>
+      
+      
+	</ul>
+    <p>
+        <button type="submit" class="action">Submit</button>
+    </p>
+</form>
+</article>
