@@ -34,66 +34,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<h3>PESAN TIKET ANDA SEKARANG JUGA !!</h3>
 	</div>
 	<div class="col-md-7 bann-info ">
-		<h2>Silahkan Masukkan Kode Ref (Masukkan kode setelah anda membayar</h2>
+		<h2>Silahkan Masukkan Kode Ref Anda</h2>
 		<div class="ban-top">
-			<div class="bnr-left">
-				<input class="city" type="text" value="Masukkan kode ref" onfocus="this.value = '';"  required=>
-			</div>
 			<form action="bus.html">
+				<div class="bnr-left">
+					<input class="city" type="text" name="#" value="Masukkan kode ref" onfocus="this.value = '';"  required=>
+				</div>
 				<button class="seabtn">Periksa</button>
 			</form>
 		</div>
 	</div>
 	<div class="clearfix"></div>
 </div>
-<!---728x90--->
-<div style="text-align: center;"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-9153409599391170"
-     data-ad-slot="6850850687"></ins>
-</div>
-<!--- /banner ---->
-<!--- rupes ---->
-<div class="container">
-	<div class="rupes">
-		<div class="col-md-4 rupes-left">
-			<div class="rup-left">
-				<a href="offers.html"><i class="fa fa-usd"></i></a>
-			</div>
-			<div class="rup-rgt">
-				<h3>UP TO IDR 10.000 OFF</h3>
-				<h4><a href="offers.html">TRAVEL SMART</a></h4>
-				<p>CODE:YBMAR12<br>Book Using Pay Money</p>
-			</div>
-				<div class="clearfix"></div>
-		</div>
-		<div class="col-md-4 rupes-left ">
-			<div class="rup-left">
-				<a href="offers.html"><i class="fa fa-bus"></i></a>
-			</div>
-			<div class="rup-rgt">
-				<h3>UP TO 70% OFF</h3>
-				<h4><a href="offers.html">ON HOTELS ACROSS WORLD</a></h4>
-				<p>Offer CODE:YBMAR12</p>
-			</div>
-				<div class="clearfix"></div>
-		</div>
-		<div class="col-md-4 rupes-left ">
-			<div class="rup-left">
-				<a href="offers.html"><i class="fa fa-mobile"></i></a>
-			</div>
-			<div class="rup-rgt">
-				<h3>FLAT IDR 10.000 OFF</h3>
-				<h4><a href="offers.html">BUS APP OFFER</a></h4>
-				<p>book via the yellow Bus App<br>CODE:YBMAR12</p>
-			</div>
-				<div class="clearfix"></div>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-</div>
-<!---728x90--->
+
 <div style="text-align: center;"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:inline-block;width:728px;height:90px"
